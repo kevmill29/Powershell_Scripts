@@ -75,9 +75,11 @@ public class CRelease {
         pressKey(robot, KeyEvent.VK_ENTER);
         Thread.sleep(STEP_DELAY_MS);
 
-        for(int i =0; i<3; i++){
+          for(int i =0; i<3; i++){
             pressKey(robot, KeyEvent.VK_F12);
+            Thread.sleep(150);
         }
+     Thread.sleep(STEP_DELAY_MS);
     }
 
     // UTC time in HHmm format
