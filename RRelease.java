@@ -93,6 +93,17 @@ public class RRelease {
         Thread.sleep(STEP_DELAY_MS);
     }
 
+       typeText(robot, "I");
+        Thread.sleep(TYPE_DELAY_MS);
+        pressKey(robot, KeyEvent.VK_ENTER);
+        Thread.sleep(STEP_DELAY_MS);
+
+        for(int i =0; i<3; i++){
+            pressKey(robot, KeyEvent.VK_F12);
+            Thread.sleep(150);
+        }
+     Thread.sleep(STEP_DELAY_MS);
+
     // UTC time in HHmm format
   
 private static String getLocalMilitaryTime() {
