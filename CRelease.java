@@ -4,7 +4,7 @@ import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class C2Release {
+public class CRelease {
 
     private static final int START_DELAY_MS = 5000;
     private static final int STEP_DELAY_MS = 500;
